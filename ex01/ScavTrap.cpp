@@ -57,6 +57,6 @@ void ScavTrap::attack(const std::string &name)
 		std::cout << "ScavTrap: " << this->name << " can't attack" <<std::endl;
 		return ;	
 	}
-	std::cout << "ScavTrap:" << this->name << " is attacking " << name << std::endl;
+	std::cout << "ScavTrap: " << this->name << " is attacking " << name << std::endl;
 	this->ep --;
 }
