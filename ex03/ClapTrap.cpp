@@ -3,7 +3,7 @@
 
 ClapTrap::ClapTrap(std::string &name)
 {
-	this->name = name;
+	this->name = name + "_clap_name";
 	this->ad = 0;
 	this->ep = 10;
 	this->hp = 10;
