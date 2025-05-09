@@ -19,7 +19,7 @@ ScavTrap::ScavTrap(ScavTrap &cpy): ClapTrap(cpy)
 
 ScavTrap &ScavTrap::operator=(ScavTrap &cpy)
 {
-	std::cout << "ScavTrap: Assign constructor called for " << cpy.name << std::endl; 
+	std::cout << "ScavTrap: Assign operator called for " << cpy.name << std::endl; 
 	if (this != &cpy)
 	{
 		this->name = cpy.name;

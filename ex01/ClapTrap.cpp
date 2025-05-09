@@ -44,7 +44,7 @@ void ClapTrap::attack(const std::string &name)
 		std::cout << "ClapTrap: " << this->name << " can't attack" <<std::endl;
 		return ;	
 	}
-	std::cout << "ClapTrap:" << this->name << " is attacking " << name << std::endl;
+	std::cout << "ClapTrap:" << this->name << " is attacking " << name << " causing " << this->ad << " damages" << std::endl;
 	this->ep --;
 }
 
