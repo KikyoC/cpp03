@@ -5,8 +5,8 @@ FragTrap::FragTrap(std::string &name): ClapTrap(name)
 {
 	std::cout << "FragTrap: Default contructor called for " << name << std::endl;
 	this->hp = 100;
-	this->ep = 500;
-	this->ad = 20;
+	this->ep = 100;
+	this->ad = 30;
 }
 
 FragTrap::FragTrap(FragTrap &cpy): ClapTrap(cpy)
