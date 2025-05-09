@@ -1,7 +1,7 @@
 #include "DiamondTrap.hpp"
-#include <ClapTrap.hpp>
-#include <FragTrap.hpp>
-#include <ScavTrap.hpp>
+#include "ClapTrap.hpp"
+#include "FragTrap.hpp"
+#include "ScavTrap.hpp"
 #include <iostream>
 
 DiamondTrap::DiamondTrap(std::string &name): ClapTrap(name), ScavTrap(name), FragTrap(name)
